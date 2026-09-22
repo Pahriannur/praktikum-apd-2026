@@ -21,7 +21,7 @@ total_biaya_gbp = total_biaya / kurs_gbp
 
 slice_negatif = harga_komponen[-6:-2]
 
-print("manusia jujur")
+print("program pahri")
 print("semua kompenen")
 print("komponen_1 :", komponen_1)
 print("komponen_2 :", komponen_2)
