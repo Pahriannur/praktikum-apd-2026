@@ -3,11 +3,12 @@ komponen_2 = 135000
 komponen_3 = 150000
 komponen_4 = 175000
 komponen_5 = 200000
+komponen_6 = 220000
 
-harga_komponen = [komponen_1, komponen_2, komponen_3, komponen_4, komponen_5]
+harga_komponen = [komponen_1, komponen_2, komponen_3, komponen_4, komponen_5, komponen_6]
 
 biaya_admin = 15000
-total_biaya = (komponen_1 + komponen_2 + komponen_3 +  komponen_4 + komponen_5 + biaya_admin)
+total_biaya = (komponen_1 + komponen_2 + komponen_3 +  komponen_4 + komponen_5 + komponen_6 + biaya_admin)
 
 rata_rata = total_biaya / len(harga_komponen)
 
@@ -18,7 +19,7 @@ bolean = nim != rata_rata
 kurs_gbp = 23850
 total_biaya_gbp = total_biaya / kurs_gbp
 
-slice_negatif = harga_komponen[-5:-1]
+slice_negatif = harga_komponen[-6:-2]
 
 print("manusia jujur")
 print("semua kompenen")
