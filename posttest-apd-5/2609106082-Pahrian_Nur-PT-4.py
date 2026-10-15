@@ -2,7 +2,7 @@ import os
 
 users = [
     ["admin", "admin123", "Admin"],
-    ["budi", "123", "Pengguna Biasa"],
+    ["pahri", "123", "Pengguna Biasa"],
     ["sari", "123", "Pengguna Biasa"]
 ]
 
